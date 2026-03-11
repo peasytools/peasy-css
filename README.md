@@ -9,7 +9,7 @@ Pure Python CSS generator — gradients, shadows, flexbox, grid, animations, tra
 
 Built from [PeasyCSS](https://peasycss.com), the interactive CSS tools platform with 200+ generators and references.
 
-> **Try the interactive tools at [peasycss.com](https://peasycss.com)** — [Gradient Generator](https://peasycss.com/tools/gradient/), [Box Shadow](https://peasycss.com/tools/box-shadow/), [Flexbox](https://peasycss.com/tools/flexbox/), [Grid](https://peasycss.com/tools/grid/), [Glassmorphism](https://peasycss.com/tools/glassmorphism/)
+> **Try the interactive tools at [peasycss.com](https://peasycss.com)** — [CSS Tools](https://peasycss.com/), [CSS Glossary](https://peasycss.com/glossary/)
 
 <p align="center">
   <img src="demo.gif" alt="peasy-css demo — CSS gradient, box shadow, and flexbox generation in Python REPL" width="800">
@@ -114,7 +114,7 @@ gradient_css(".hero", ["#667eea", "#764ba2"])
 # → ".hero {\n  background: linear-gradient(to right, #667eea, #764ba2);\n}"
 ```
 
-Learn more: [Gradient Generator](https://peasycss.com/tools/gradient/) · [CSS Gradients Guide](https://peasycss.com/glossary/gradient/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Gradient Glossary](https://peasycss.com/glossary/gradient/)
 
 ### Box Shadows
 
@@ -140,7 +140,7 @@ box_shadow(s1, s2)
 # → "0px 2px 4px 0px rgba(0,0,0,0.1), 0px 8px 16px 0px rgba(0,0,0,0.1)"
 ```
 
-Learn more: [Box Shadow Generator](https://peasycss.com/tools/box-shadow/) · [CSS Shadows Guide](https://peasycss.com/glossary/box-shadow/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [Box Shadow Glossary](https://peasycss.com/glossary/box-shadow/)
 
 ### Flexbox Layouts
 
@@ -167,7 +167,7 @@ flexbox_css(".navbar", direction="row", justify="space-between", align="center")
 # → ".navbar {\n  display: flex;\n  flex-direction: row;\n  ..."
 ```
 
-Learn more: [Flexbox Generator](https://peasycss.com/tools/flexbox/) · [Flexbox Guide](https://peasycss.com/glossary/flexbox/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [Flexbox Glossary](https://peasycss.com/glossary/flexbox/)
 
 ### CSS Grid
 
@@ -189,7 +189,7 @@ t = GridTemplate(columns="repeat(auto-fill, minmax(250px, 1fr))", auto_flow="den
 grid(t)
 ```
 
-Learn more: [Grid Generator](https://peasycss.com/tools/grid/) · [CSS Grid Guide](https://peasycss.com/glossary/grid/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Grid Glossary](https://peasycss.com/glossary/grid/)
 
 ### Animations & Keyframes
 
@@ -211,7 +211,7 @@ keyframes("fadeIn", frames)
 # → "@keyframes fadeIn {\n  from { opacity: 0; transform: translateY(-20px); }\n  to { ... }\n}"
 ```
 
-Learn more: [Animation Generator](https://peasycss.com/tools/animation/) · [CSS Animation Guide](https://peasycss.com/glossary/animation/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Animation Glossary](https://peasycss.com/glossary/animation/)
 
 ### Transforms
 
@@ -233,7 +233,7 @@ transform()
 # → "none"
 ```
 
-Learn more: [Transform Generator](https://peasycss.com/tools/transform/) · [CSS Transform Guide](https://peasycss.com/glossary/transform/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Transform Glossary](https://peasycss.com/glossary/transform/)
 
 ### CSS Filters
 
@@ -251,7 +251,7 @@ css_filter(blur="2px", brightness="120%", grayscale="50%")
 # → "blur(2px) brightness(120%) grayscale(50%)"
 ```
 
-Learn more: [Filter Generator](https://peasycss.com/tools/filter/) · [CSS Filter Guide](https://peasycss.com/glossary/filter/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Filter Glossary](https://peasycss.com/glossary/filter/)
 
 ### Glassmorphism
 
@@ -271,7 +271,7 @@ glassmorphism(blur="20px", background="rgba(0, 0, 0, 0.3)")
 glassmorphism_css(".modal", blur="15px")
 ```
 
-Learn more: [Glassmorphism Generator](https://peasycss.com/tools/glassmorphism/) · [Glassmorphism Guide](https://peasycss.com/glossary/glassmorphism/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Glossary](https://peasycss.com/glossary/)
 
 ### Fluid Typography
 
@@ -289,7 +289,7 @@ clamp_font_css("h1", "1.5rem", "4vw", "3rem")
 # → "h1 {\n  font-size: clamp(1.5rem, 4vw, 3rem);\n}"
 ```
 
-Learn more: [Clamp Calculator](https://peasycss.com/tools/clamp/) · [CSS Clamp Guide](https://peasycss.com/glossary/clamp/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Clamp Glossary](https://peasycss.com/glossary/clamp/)
 
 ### Media Queries
 
@@ -307,7 +307,7 @@ media_query("480px", "body { font-size: 14px; }", type="max-width")
 # → "@media (max-width: 480px) {\n  body { font-size: 14px; }\n}"
 ```
 
-Learn more: [Media Query Guide](https://peasycss.com/glossary/media-query/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [Media Query Glossary](https://peasycss.com/glossary/media-query/)
 
 ## Command-Line Interface
 
@@ -435,9 +435,8 @@ spec = api.openapi_spec()
 
 ## Learn More About CSS
 
-- **Tools**: [Gradient Generator](https://peasycss.com/tools/gradient/) · [Box Shadow](https://peasycss.com/tools/box-shadow/) · [Flexbox](https://peasycss.com/tools/flexbox/) · [Grid](https://peasycss.com/tools/grid/)
-- **Effects**: [Glassmorphism](https://peasycss.com/tools/glassmorphism/) · [Animation](https://peasycss.com/tools/animation/) · [Transform](https://peasycss.com/tools/transform/)
-- **Reference**: [CSS Glossary](https://peasycss.com/glossary/) · [All CSS Tools](https://peasycss.com/tools/)
+- **Tools**: [PeasyCSS Tools](https://peasycss.com/)
+- **Reference**: [CSS Glossary](https://peasycss.com/glossary/)
 - **API**: [REST API Docs](https://peasycss.com/developers/) · [OpenAPI Spec](https://peasycss.com/api/openapi.json)
 
 ## Also Available
@@ -455,10 +454,10 @@ spec = api.openapi_spec()
 | peasy-image | [PyPI](https://pypi.org/project/peasy-image/) | [npm](https://www.npmjs.com/package/peasy-image) | Image resize, crop, convert, watermark — [peasyimage.com](https://peasyimage.com) |
 | peasytext | [PyPI](https://pypi.org/project/peasytext/) | [npm](https://www.npmjs.com/package/peasytext) | Text case, slug, encode, diff — [peasytext.com](https://peasytext.com) |
 | **peasy-css** | **[PyPI](https://pypi.org/project/peasy-css/)** | **[npm](https://www.npmjs.com/package/peasy-css)** | **CSS gradient, shadow, flexbox, grid — [peasycss.com](https://peasycss.com)** |
-| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | — | Archive & compression — gzip, zip, tar — [peasycompress.com](https://peasycompress.com) |
-| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | — | Document conversion — Markdown, CSV, HTML — [peasydocument.com](https://peasydocument.com) |
-| peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | [npm](https://www.npmjs.com/package/peasy-audio) | Audio trim, merge, convert, normalize — [peasyaudio.com](https://peasyaudio.com) |
-| peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | [npm](https://www.npmjs.com/package/peasy-video) | Video trim, resize, GIF, thumbnails — [peasyvideo.com](https://peasyvideo.com) |
+| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | — | Archive & compression — gzip, zip, tar — [peasytools.com](https://peasytools.com) |
+| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | — | Document conversion — Markdown, CSV, HTML — [peasytools.com](https://peasytools.com) |
+| peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | — | Audio trim, merge, convert, normalize — [peasyaudio.com](https://peasyaudio.com) |
+| peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | — | Video trim, resize, GIF, thumbnails — [peasyvideo.com](https://peasyvideo.com) |
 | peasy-convert | [PyPI](https://pypi.org/project/peasy-convert/) | — | Unified CLI: `peasy pdf merge a.pdf b.pdf` — [peasytools.com](https://peasytools.com) |
 | peasy-mcp | [PyPI](https://pypi.org/project/peasy-mcp/) | — | Unified MCP hub for AI assistants — [peasytools.com](https://peasytools.com) |
 

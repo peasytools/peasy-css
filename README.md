@@ -4,6 +4,7 @@
 [![Python](https://img.shields.io/pypi/pyversions/peasy-css)](https://pypi.org/project/peasy-css/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://pypi.org/project/peasy-css/)
+[![GitHub stars](https://agentgif.com/badge/github/peasytools/peasy-css/stars.svg)](https://github.com/peasytools/peasy-css)
 
 Pure Python CSS generator — gradients, shadows, flexbox, grid, animations, transforms, filters, glassmorphism, and more. Zero dependencies, type-safe, with CLI, MCP server, and REST API client.
 

@@ -35,6 +35,7 @@ Built from [PeasyCSS](https://peasycss.com), the interactive CSS tools platform 
 - [REST API Client](#rest-api-client)
 - [API Reference](#api-reference)
 - [Learn More About CSS](#learn-more-about-css)
+- [Also Available](#also-available)
 - [Peasy Developer Tools](#peasy-developer-tools)
 - [License](#license)
 
@@ -385,6 +386,21 @@ results = api.search("flexbox")
 
 # OpenAPI specification
 spec = api.openapi_spec()
+
+# Search the CSS glossary for technical terms
+terms = api.search_glossary("specificity")
+for term in terms:
+    print(f"{term['term']}: {term['definition']}")
+
+# Browse CSS guides and tutorials
+guides = api.list_guides()
+for guide in guides:
+    print(f"{guide['title']}: {guide['url']}")
+
+# Discover use cases for CSS generators
+use_cases = api.list_use_cases()
+for uc in use_cases:
+    print(f"{uc['title']}: {uc['description']}")
 ```
 
 ## API Reference
@@ -435,31 +451,36 @@ spec = api.openapi_spec()
 
 ## Learn More About CSS
 
-- **Tools**: [PeasyCSS Tools](https://peasycss.com/)
-- **Reference**: [CSS Glossary](https://peasycss.com/glossary/)
+- **Tools**: [Gradient Generator](https://peasycss.com/tools/gradient-generator/) · [Box Shadow Generator](https://peasycss.com/tools/box-shadow-generator/) · [Flexbox Generator](https://peasycss.com/tools/flexbox-generator/) · [All CSS Tools](https://peasycss.com/)
+- **Guides**: [CSS Gradients Guide](https://peasycss.com/guides/css-gradients/) · [Flexbox Guide](https://peasycss.com/guides/flexbox/) · [All Guides](https://peasycss.com/guides/)
+- **Glossary**: [Flexbox](https://peasycss.com/glossary/flexbox/) · [CSS Grid](https://peasycss.com/glossary/css-grid/) · [All Terms](https://peasycss.com/glossary/)
+- **Formats**: [CSS Syntax](https://peasycss.com/formats/css/) · [All Formats](https://peasycss.com/formats/)
 - **API**: [REST API Docs](https://peasycss.com/developers/) · [OpenAPI Spec](https://peasycss.com/api/openapi.json)
 
 ## Also Available
 
 | Platform | Install | Link |
 |----------|---------|------|
-| **npm** | `npm install peasy-css` | [npm](https://www.npmjs.com/package/peasy-css) |
+| **TypeScript / npm** | `npm install peasy-css` | [npm](https://www.npmjs.com/package/peasy-css) |
+| **Go** | `go get github.com/peasytools/peasy-css-go` | [pkg.go.dev](https://pkg.go.dev/github.com/peasytools/peasy-css-go) |
+| **Rust** | `cargo add peasy-css` | [crates.io](https://crates.io/crates/peasy-css) |
+| **Ruby** | `gem install peasy-css` | [RubyGems](https://rubygems.org/gems/peasy-css) |
 | **MCP** | `uvx --from "peasy-css[mcp]" python -m peasy_css.mcp_server` | [Config](#mcp-server-claude-cursor-windsurf) |
 
 ## Peasy Developer Tools
 
+Part of the [Peasy](https://peasytools.com) open-source developer tools ecosystem.
+
 | Package | PyPI | npm | Description |
 |---------|------|-----|-------------|
-| peasy-pdf | [PyPI](https://pypi.org/project/peasy-pdf/) | — | PDF merge, split, compress, encrypt — [peasypdf.com](https://peasypdf.com) |
-| peasy-image | [PyPI](https://pypi.org/project/peasy-image/) | [npm](https://www.npmjs.com/package/peasy-image) | Image resize, crop, convert, watermark — [peasyimage.com](https://peasyimage.com) |
-| peasytext | [PyPI](https://pypi.org/project/peasytext/) | [npm](https://www.npmjs.com/package/peasytext) | Text case, slug, encode, diff — [peasytext.com](https://peasytext.com) |
-| **peasy-css** | **[PyPI](https://pypi.org/project/peasy-css/)** | **[npm](https://www.npmjs.com/package/peasy-css)** | **CSS gradient, shadow, flexbox, grid — [peasycss.com](https://peasycss.com)** |
-| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | — | Archive & compression — gzip, zip, tar — [peasytools.com](https://peasytools.com) |
-| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | — | Document conversion — Markdown, CSV, HTML — [peasytools.com](https://peasytools.com) |
-| peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | — | Audio trim, merge, convert, normalize — [peasyaudio.com](https://peasyaudio.com) |
-| peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | — | Video trim, resize, GIF, thumbnails — [peasyvideo.com](https://peasyvideo.com) |
-| peasy-convert | [PyPI](https://pypi.org/project/peasy-convert/) | — | Unified CLI: `peasy pdf merge a.pdf b.pdf` — [peasytools.com](https://peasytools.com) |
-| peasy-mcp | [PyPI](https://pypi.org/project/peasy-mcp/) | — | Unified MCP hub for AI assistants — [peasytools.com](https://peasytools.com) |
+| peasy-pdf | [PyPI](https://pypi.org/project/peasy-pdf/) | [npm](https://www.npmjs.com/package/peasy-pdf) | PDF merge, split, compress, 21 operations — [peasypdf.com](https://peasypdf.com) |
+| peasy-image | [PyPI](https://pypi.org/project/peasy-image/) | [npm](https://www.npmjs.com/package/peasy-image) | Image resize, crop, convert, compress, 20 operations — [peasyimage.com](https://peasyimage.com) |
+| peasytext | [PyPI](https://pypi.org/project/peasytext/) | [npm](https://www.npmjs.com/package/peasytext) | Text case, slugify, word count, encoding — [peasytext.com](https://peasytext.com) |
+| **peasy-css** | **[PyPI](https://pypi.org/project/peasy-css/)** | **[npm](https://www.npmjs.com/package/peasy-css)** | **CSS gradients, shadows, flexbox, grid generators — [peasycss.com](https://peasycss.com)** |
+| peasy-compress | [PyPI](https://pypi.org/project/peasy-compress/) | [npm](https://www.npmjs.com/package/peasy-compress) | ZIP, TAR, gzip, brotli archive operations — [peasytools.com](https://peasytools.com) |
+| peasy-document | [PyPI](https://pypi.org/project/peasy-document/) | [npm](https://www.npmjs.com/package/peasy-document) | Markdown, HTML, CSV, JSON conversions — [peasyformats.com](https://peasyformats.com) |
+| peasy-audio | [PyPI](https://pypi.org/project/peasy-audio/) | [npm](https://www.npmjs.com/package/peasy-audio) | Audio convert, trim, merge, normalize — [peasyaudio.com](https://peasyaudio.com) |
+| peasy-video | [PyPI](https://pypi.org/project/peasy-video/) | [npm](https://www.npmjs.com/package/peasy-video) | Video trim, resize, GIF conversion — [peasyvideo.com](https://peasyvideo.com) |
 
 ## License
 

@@ -115,7 +115,7 @@ gradient_css(".hero", ["#667eea", "#764ba2"])
 # → ".hero {\n  background: linear-gradient(to right, #667eea, #764ba2);\n}"
 ```
 
-Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Gradient Glossary](https://peasycss.com/glossary/gradient/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Gradient Glossary](https://peasycss.com/glossary/)
 
 ### Box Shadows
 
@@ -141,7 +141,7 @@ box_shadow(s1, s2)
 # → "0px 2px 4px 0px rgba(0,0,0,0.1), 0px 8px 16px 0px rgba(0,0,0,0.1)"
 ```
 
-Learn more: [PeasyCSS](https://peasycss.com/) · [Box Shadow Glossary](https://peasycss.com/glossary/box-shadow/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [Box Shadow Glossary](https://peasycss.com/glossary/)
 
 ### Flexbox Layouts
 
@@ -212,7 +212,7 @@ keyframes("fadeIn", frames)
 # → "@keyframes fadeIn {\n  from { opacity: 0; transform: translateY(-20px); }\n  to { ... }\n}"
 ```
 
-Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Animation Glossary](https://peasycss.com/glossary/animation/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Animation Glossary](https://peasycss.com/glossary/)
 
 ### Transforms
 
@@ -234,7 +234,7 @@ transform()
 # → "none"
 ```
 
-Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Transform Glossary](https://peasycss.com/glossary/transform/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Transform Glossary](https://peasycss.com/glossary/)
 
 ### CSS Filters
 
@@ -252,7 +252,7 @@ css_filter(blur="2px", brightness="120%", grayscale="50%")
 # → "blur(2px) brightness(120%) grayscale(50%)"
 ```
 
-Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Filter Glossary](https://peasycss.com/glossary/filter/)
+Learn more: [PeasyCSS](https://peasycss.com/) · [CSS Filter Glossary](https://peasycss.com/glossary/)
 
 ### Glassmorphism
 
@@ -451,9 +451,9 @@ for uc in use_cases:
 
 ## Learn More About CSS
 
-- **Tools**: [Gradient Generator](https://peasycss.com/tools/gradient-generator/) · [Box Shadow Generator](https://peasycss.com/tools/box-shadow-generator/) · [Flexbox Generator](https://peasycss.com/tools/flexbox-generator/) · [All CSS Tools](https://peasycss.com/)
-- **Guides**: [CSS Gradients Guide](https://peasycss.com/guides/css-gradients/) · [Flexbox Guide](https://peasycss.com/guides/flexbox/) · [All Guides](https://peasycss.com/guides/)
-- **Glossary**: [Flexbox](https://peasycss.com/glossary/flexbox/) · [CSS Grid](https://peasycss.com/glossary/css-grid/) · [All Terms](https://peasycss.com/glossary/)
+- **Tools**: [Gradient Generator](https://peasycss.com/css/gradient-generator/) · [Box Shadow Generator](https://peasycss.com/css/box-shadow-generator/) · [Flexbox Generator](https://peasycss.com/css/flexbox-generator/) · [All CSS Tools](https://peasycss.com/)
+- **Guides**: [CSS Gradients Guide](https://peasycss.com/guides/) · [Flexbox Guide](https://peasycss.com/guides/) · [All Guides](https://peasycss.com/guides/)
+- **Glossary**: [Flexbox](https://peasycss.com/glossary/flexbox/) · [CSS Grid](https://peasycss.com/glossary/) · [All Terms](https://peasycss.com/glossary/)
 - **Formats**: [CSS Syntax](https://peasycss.com/formats/css/) · [All Formats](https://peasycss.com/formats/)
 - **API**: [REST API Docs](https://peasycss.com/developers/) · [OpenAPI Spec](https://peasycss.com/api/openapi.json)
 

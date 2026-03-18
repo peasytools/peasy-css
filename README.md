@@ -13,7 +13,7 @@ Built from [PeasyCSS](https://peasycss.com), the interactive CSS tools platform 
 > **Try the interactive tools at [peasycss.com](https://peasycss.com)** — [CSS Tools](https://peasycss.com/), [CSS Glossary](https://peasycss.com/glossary/)
 
 <p align="center">
-  <img src="demo.gif" alt="peasy-css demo — CSS gradient, box shadow, and flexbox generation in Python REPL" width="800">
+  <a href="https://agentgif.com/GM4cK1km"><img src="https://media.agentgif.com/GM4cK1km.gif" alt="peasy-css demo — CSS gradient, box shadow, and flexbox generation in Python REPL" width="800"></a>
 </p>
 
 ## Table of Contents

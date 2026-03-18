@@ -1,6 +1,6 @@
 [project]
 name = "peasy-css"
-version = "0.2.1"
+version = "0.2.2"
 description = "Python CSS toolkit — generate gradients, shadows, borders, flexbox, grid, animations, transforms, and 7 more CSS utilities. Zero dependencies."
 readme = "README.md"
 license = "MIT"

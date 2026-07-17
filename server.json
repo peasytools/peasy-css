@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.peasytools/peasy-css",
+  "description": "Python CSS toolkit — generate gradients, shadows, borders, flexbox, grid, animations, transforms",
+  "version": "0.2.2",
+  "repository": {
+    "url": "https://github.com/peasytools/peasy-css",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "peasy-css",
+      "version": "0.2.2",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeArguments": [
+        {
+          "type": "named",
+          "name": "--from",
+          "value": "peasy-css[mcp]"
+        },
+        {
+          "type": "positional",
+          "value": "python"
+        },
+        {
+          "type": "positional",
+          "value": "-m"
+        },
+        {
+          "type": "positional",
+          "value": "peasy_css.mcp_server"
+        }
+      ]
+    }
+  ]
+}
